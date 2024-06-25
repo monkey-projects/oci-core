@@ -26,7 +26,7 @@
     (api-route
      {:route-name :list-private-ips
       :method :get
-      :path-parts ["privateIps"]
+      :path-parts ["/privateIps"]
       :query-schema PrivateIpQuery}))])
 
 (defn make-client [conf]
